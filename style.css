@@ -1,21 +1,35 @@
-#banner {
-    width: 25%;
+body {
+    background: #FFB627;
 }
 
-a {
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #E2711D;
+    padding: 0 25px;
+}
+
+.menu {
+    display: flex;
+    
+
+}
+
+.menu-li{
+    color: #FFF;
     text-decoration: none;
-    color: black;
-    font-family: sans-serif;
+    padding: 40px 25px;
+    font-size: 18px;
+}
+
+.menu-li:hover {
+    background-color:#E28;
     
 }
-
-a:hover {
-  background: coral;
-}   
-
-.container {
-    display: flex;
-}
+    
+    
+    
 
 
 
