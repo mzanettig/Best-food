@@ -12,20 +12,55 @@ body {
 
 .menu {
     display: flex;
-    
-
+    text-align: center;
 }
 
 .menu-li{
     color: #FFF;
     text-decoration: none;
     padding: 40px 25px;
-    font-size: 18px;
+    font-size: 24px;
 }
 
 .menu-li:hover {
-    background-color:#E28;
-    
+    background-color: orangered;
+    padding: 10px;
+}
+
+.cardapio {
+    display: flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    padding-top: 80px;
+}
+
+.pratos {
+    padding: 5px;
+    width: 360px;
+    height: 220px;
+    border-radius: 50px;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 24px;
+    background-color: blanchedalmond;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+button {
+    background-color: #5C4444;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    color: #FFF;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
 }
     
     
