@@ -54,17 +54,41 @@ body {
 
 button {
     background-color: #5C4444;
-    padding: 10px;
+    padding: 15px;
     border-radius: 10px;
-    border: none;
     color: #FFF;
     font-size: 14px;
     font-weight: bold;
     cursor: pointer;
 }
+
+.sobre {
+    display: flex;
+    flex-direction: row;
+    padding: 45px 10px;
+}
+
+.sobre-titulo {
+    color: red;
+    font-size: 50px;
+    font-style: italic;
+    font-weight: bolder;
+    text-align: center;
+    padding: 45px 0;
+}
+
+.sobre-texto {
+    color: #FFF;
+    font-size: 22px;
+    text-align: justify;
+    padding: 30px 15px;
+    font-family: sans-serif;
+}
+.sobre-imagem {
+   
+    width: 450px;
+    border-radius: 10px;
     
     
     
-
-
-
+}
