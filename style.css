@@ -24,7 +24,7 @@ body {
 
 .menu-li:hover {
     background-color: orangered;
-    padding: 10px;
+    padding: 15px;
 }
 
 .cardapio {
@@ -84,11 +84,43 @@ button {
     padding: 30px 15px;
     font-family: sans-serif;
 }
+
 .sobre-imagem {
-   
     width: 450px;
     border-radius: 10px;
-    
-    
-    
+}
+
+.valores {
+    background-color: #BBBBBB;
+    display: flex;
+    justify-content:center;
+    padding-top: 20px;
+    border-radius: 10px;
+}
+
+.container {
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 20px;
+    padding: 15px 25px;
+    margin: 10px;
+}
+
+.titulo {
+    font-style:italic;
+    font-size: 26px;
+    padding-bottom: 15px;
+    padding-top: 10px;
+    font-weight: bold;
+    color: #E2711D;
+}
+
+.rodape {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 26px;
+    padding-top: 15px;
+    font-style: italic;
+    font-weight: bold;
 }
