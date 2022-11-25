@@ -1,2 +1,2 @@
 # Best-food
-Criação de um pequeno cardápio para um restaurante.
+Criação de um pequeno cardápio para Delivery.
